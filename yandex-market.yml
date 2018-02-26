@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2018-02-26 22:33">
+  <shop>
+    <name>BestSeller</name>
+    <company>Tne Best inc.</company>
+    <url>http://best.seller.ru</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Бытовая техника</category>
+    </categories>
+    <delivery-options>
+      <option cost="300" days="1-20" order-before="12"/>
+    </delivery-options>
+    <offers>
+      <offer id="12346">
+        <name>Вафельница First FA-5300</name>
+        <price>1490</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>101</categoryId>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
