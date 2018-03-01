@@ -1,6 +1,27 @@
 var convertExcel = require('excel-as-json').processFile;
 var yml = require('yandex-market-language');
-const { writeFile } = require('fs');
+var { writeFile, readFile } = require('fs');
+
+var options = {
+    sheet:'1',
+    isColOriented: false,
+    omitEmtpyFields: false
+}
+
+var jsonData;
+
+var cb = function (err, data) {
+    console.log('start');
+    if(err) {
+        console.log(err);
+    } else if(data){
+        jsonData = data;
+    } else {
+        console.log('fuck!');
+    }
+}
+
+convertExcel('src/example-data_.xlsx', 'output/example-data_.json', options, cb);
 
 const MIN_VALID_INPUT = {
   name: 'BestSeller',
@@ -30,8 +51,7 @@ const MIN_VALID_INPUT = {
   ]
 }
 
-console.log('Wellcome');
-const YML = yml(MIN_VALID_INPUT).end({ pretty: true });
+const YML = yml(jsonData).end({ pretty: true });
 
 
 writeFile('yandex-market.yml', YML, (err) => {
