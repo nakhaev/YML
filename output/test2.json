@@ -1,0 +1,88 @@
+[
+  {
+    "currencies": [
+      {
+        "id": "UAH",
+        "rate": 1
+      }
+    ],
+    "categories": [
+      {
+        "id": "122'",
+        "name": "testname1"
+      },
+      {
+        "id": "259'",
+        "name": "testname23"
+      }
+    ],
+    "delivery-options": [
+      {
+        "cost": 300,
+        "days": 1,
+        "order-before": 13
+      }
+    ],
+    "offers": [
+      {
+        "name": "кольцо из серебра к29, с кубическим цирконием",
+        "id": "2589'",
+        "available": true,
+        "price": 160,
+        "currencyId": "UAH",
+        "categoryId": "25'",
+        "description": "<p>Ювелірні прикраси<b>Jewelry</b></p>\n<p>Кольцо выполнено в классическом стиле известных ювелирных домов.</p>\n<p>Центральный камень - цирконий в глубоком синем цвете  под натуральный сапфир, обрамление россыпью по окружности мелкими фианитами. </p>\n<p>Камень поставен в удобный пьедистал, так, что бы свет поступал ко всем его  граням.</p>\n<ul>\n  <li><b>Покатая форма</b></li>\n  <li><b>Гладкая полировка</b></li>\n  <li><b>Яркость изделию придает белоснежное покрытие родием</b> </li>\n</ul>",
+        "picture": [
+          "http://abc.ua/upload/iblock/93d/93de38537e1cc1f8f2.jpg",
+          " http://abc.ua/upload/iblock/93d/93de38537e1cc1f8f2.jpg",
+          " http://abc.ua/upload/iblock/93d/93de38537e1cc1f8f2.jpg"
+        ],
+        "url": "http://abc.ua/upload/iblock/93d/93de38537e1cc1f8f2/html",
+        "vendor": "vendorname",
+        "model": "modelname"
+      }
+    ]
+  },
+  {
+    "currencies": [
+      {
+        "id": "",
+        "rate": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": "",
+        "name": ""
+      },
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "delivery-options": [
+      {
+        "cost": "",
+        "days": "",
+        "order-before": ""
+      }
+    ],
+    "offers": [
+      {
+        "name": "",
+        "id": "",
+        "available": "",
+        "price": "",
+        "currencyId": "",
+        "categoryId": "",
+        "description": "",
+        "picture": [
+          ""
+        ],
+        "url": "",
+        "vendor": "",
+        "model": ""
+      }
+    ]
+  }
+]
