@@ -1,23 +1,19 @@
-var d = {
-    name: 'BestSeller',
-    company: 'Tne Best inc.',
-    url: 'http://best.seller.ru',
-    currencies: [
-      { id: 'RUR', rate: 1 }
-    ]
+'use strict'
+
+const Base = class Base {
+    say() {
+        console.log('bark');
+    }
 }
 
-var f = {
-  "c": 12,
-  "d": 56
+class One extends Base {
+    say() {
+        console.log('mew');
+    }
 }
 
-var o = JSON.stringify(d);
-var y = JSON.stringify(f);
+var first = new Base();
+var second = new One();
 
-var joinData = function (title, data) {
-    return JSON.stringify(Object.assign({}, JSON.parse(title), JSON.parse(data)));
-}
-
-var ii = joinData (o, y);
-console.log(ii);
+first.say();
+second.say();

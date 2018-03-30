@@ -2,7 +2,6 @@
   {
     "currencies": [
       {
-        "id": "UAH",
         "rate": 1
       }
     ],
@@ -46,7 +45,6 @@
   {
     "currencies": [
       {
-        "id": "",
         "rate": ""
       }
     ],
