@@ -3,7 +3,6 @@
 const yml = require('yandex-market-language');
 const { writeFile, readFile } = require('fs');
 const xlsx = require('node-xlsx').default;
-const base = require('./base');
 
 //path constant
 const SOURCE_PATH = 'src/input.xlsx';
