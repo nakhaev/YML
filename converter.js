@@ -40,15 +40,32 @@ let ymlData = {
           { name: 'Размер экрана', unit: 'дюйм', value: 27 },
           { name: 'Материал', value: 'алюминий' }
       ],
-      stock_quantity: 100,
-      picture: [
-          'http://best.seller.ru/img/large_12348.jpg - DSCN4853.JPG',
-          'http://center-jeweler.com.ua/image/data/kolca11/watermarked - DSCN4854.JPG'
-      ],
+      picture: [],
       url: 'http://best.seller.ru/product_page.asp?pid=12348'
     }
   ]
 }
+
+// offers: [
+//   {
+//     name: 'Вафельница First FA-5300',
+//     vendor: 'First',
+//     price: 1490,
+//     currencyId: 'RUR',
+//     categoryId: '101',
+//     description: `<p>Отличный подарок для любителей венских вафель.</p>`,
+//     param: [
+//         { name: 'Размер экрана', unit: 'дюйм', value: 27 },
+//         { name: 'Материал', value: 'алюминий' }
+//     ],
+//     stock_quantity: 100,
+//     picture: [
+//         'http://best.seller.ru/img/large_12348.jpg - DSCN4853.JPG',
+//         'http://center-jeweler.com.ua/image/data/kolca11/watermarked - DSCN4854.JPG'
+//     ],
+//     url: 'http://best.seller.ru/product_page.asp?pid=12348'
+//   }
+// ]
 
 
 function init() {
@@ -61,10 +78,10 @@ function init() {
             ymlData['delivery-options'] = parseCellToArray(['cost', 'days', 'order-before'], inputJson[2]);
             ymlData.offers[0].name = inputJson[3];
             ymlData.offers[0].description = inputJson[5];
-            let offersOptions = parseCellToObject(['vendor', 'price', 'currencyId', 'categoryId'], inputJson[4]); //, 'id', 'aviable'
+            let offersOptions = parseCellToObject(['vendor', 'price', 'currencyId', 'categoryId', 'id'], inputJson[4]); //'aviable'
             ymlData.offers[0] = Object.assign(ymlData.offers[0], offersOptions);
             ymlData.offers[0].param = parseCellToArray(['name', 'value'], inputJson[6]);
-            ymlData.offers[0].stock_quantity = inputJson[7];
+            // ymlData.offers[0].stock_quantity = inputJson[7];
             ymlData.offers[0].picture = parseCellToArray([], inputJson[8]); //fi names = [] return array with string instead array with objects
             ymlData.offers[0].url = inputJson[9];
 
@@ -88,6 +105,15 @@ function init() {
 
 function toNumber() {
     ymlData.offers[0].price = Number(ymlData.offers[0].price);
+
+    for(let i = 0; i < ymlData.currencies.length; i++) {
+        let item = ymlData.currencies[i];
+        item.rate = Number(item.rate);
+    }
+
+    ymlData['delivery-options'][0].cost = Number(String(ymlData['delivery-options'][0].cost));
+    ymlData['delivery-options'][0].days = Number(ymlData['delivery-options'][0].days);
+    ymlData['delivery-options'][0]['order-before'] = Number(ymlData['delivery-options'][0]['order-before']);
 }
 
 function readJson(path) {

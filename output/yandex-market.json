@@ -55,13 +55,13 @@
           "value": "Товар под заказ. Срок доставки до 7 дней. Предоплата 10%"
         }
       ],
-      "stock_quantity": 400,
       "picture": [
-        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4854.JPG",
-        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4856.JPG",
-        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4863.JPG"
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4854.jpg",
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4856.jpg",
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4863.jpg"
       ],
-      "url": "http://center-jeweler.com.ua/serebro/kolca-1/kolco-serebro-925-damiani-minou-oro"
+      "url": "http://center-jeweler.com.ua/serebro/kolca-1/kolco-serebro-925-damiani-minou-oro",
+      "id": "2589"
     }
   ]
 }

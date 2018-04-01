@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2018-04-01 13:25">
+<yml_catalog date="2018-04-01 21:15">
   <shop>
     <name>Center-jeweler</name>
     <company>Center-jeweler</company>
@@ -11,10 +11,10 @@
       <category id="122">Женские серебряные кольца</category>
     </categories>
     <delivery-options>
-      <option cost="300" days="1" order-before="13"/>
+      <option cost="400" days="1" order-before="13"/>
     </delivery-options>
     <offers>
-      <offer>
+      <offer id="2589">
         <name>Кольцо из серебра с куб. циркониями Ювелир центр 925 Damiani MINOU in OrO, 17.5 размер</name>
         <vendor>Ювелир центр</vendor>
         <price>160</price>
@@ -32,14 +32,13 @@
         </description>
         <param name="Размер">17.5</param>
         <param name="Металл">Серебро</param>
-        <param name="Камни">“Кубический цирконий“</param>
-        <param name="Металл">“Серебро 925°“</param>
-        <param name="Вес">“3.5 грамм“</param>
-        <param name="Доставка/Оплата">“Товар под заказ. Срок доставки до 7 дней. Предоплата 10%“</param>
-        <stock_quantity>100</stock_quantity>
-        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4854.JPG</picture>
-        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4856.JPG</picture>
-        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4863.JPG</picture>
+        <param name="Камни">Кубический цирконий</param>
+        <param name="Металл">Серебро 925°</param>
+        <param name="Вес">3.5 грамм</param>
+        <param name="Доставка/Оплата">Товар под заказ. Срок доставки до 7 дней. Предоплата 10%</param>
+        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4854.jpg</picture>
+        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4856.jpg</picture>
+        <picture>http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4863.jpg</picture>
         <url>http://center-jeweler.com.ua/serebro/kolca-1/kolco-serebro-925-damiani-minou-oro</url>
       </offer>
     </offers>
