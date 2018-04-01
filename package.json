@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "convert": "node converter.js"
   },
   "author": "Alexey Nakhaev",
   "license": "ISC",
   "dependencies": {
-    "excel-as-json": "^2.0.1",
     "node-xlsx": "^0.12.0",
     "yandex-market-language": "^0.3.0"
   }

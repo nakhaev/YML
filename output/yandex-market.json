@@ -1,0 +1,67 @@
+{
+  "name": "Center-jeweler",
+  "company": "Center-jeweler",
+  "url": "http://center-jeweler.com.ua",
+  "currencies": [
+    {
+      "id": "UAH",
+      "rate": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "122",
+      "name": "Женские серебряные кольца"
+    }
+  ],
+  "delivery-options": [
+    {
+      "cost": "300",
+      "days": "1",
+      "order-before": "13"
+    }
+  ],
+  "offers": [
+    {
+      "name": "Кольцо из серебра с куб. циркониями Ювелир центр 925 Damiani MINOU in OrO, 17.5 размер",
+      "vendor": "Ювелир центр",
+      "price": "160",
+      "currencyId": "UAH",
+      "categoryId": "122",
+      "description": "<p>Кольцо выполнено в классическом стиле известных ювелирных домов.</p>\n<p>Центральный камень - цирконий в глубоком синем цвете  под натуральный сапфир, обрамление россыпью по окружности мелкими фианитами. </p>\n<p>Камень поставен в удобный пьедистал, так, что бы свет поступал ко всем его  граням.</p>\n<ul>\n  <li><b>Покатая форма</b></li>\n  <li><b>Гладкая полировка</b></li>\n  <li><b>Яркость изделию придает белоснежное покрытие родием</b> </li>\n</ul>",
+      "param": [
+        {
+          "name": "Размер",
+          "value": "17.5"
+        },
+        {
+          "name": "Металл",
+          "value": "Серебро"
+        },
+        {
+          "name": "Камни",
+          "value": "“Кубический цирконий“"
+        },
+        {
+          "name": "Металл",
+          "value": "“Серебро 925°“"
+        },
+        {
+          "name": "Вес",
+          "value": "“3.5 грамм“"
+        },
+        {
+          "name": "Доставка/Оплата",
+          "value": "“Товар под заказ. Срок доставки до 7 дней. Предоплата 10%“"
+        }
+      ],
+      "stock_quantity": 400,
+      "picture": [
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4854.JPG",
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4856.JPG",
+        "http://center-jeweler.com.ua/image/data/kolca11/watermarked — DSCN4863.JPG"
+      ],
+      "url": "http://center-jeweler.com.ua/serebro/kolca-1/kolco-serebro-925-damiani-minou-oro"
+    }
+  ]
+}
